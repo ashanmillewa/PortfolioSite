@@ -28,7 +28,7 @@ const skills = () => {
                   <img src={WebDesign} alt='' className='skillBarImg'/>
                   <div className='skillBarText'>
                     <h2>Web Design</h2>
-                    <p>This is demo text and you can write anything about your web development</p>
+                    <p>This is demo text and you can write anything about your web devzxczxcelopment</p>
                   </div>
                   </div>
                 </div>
