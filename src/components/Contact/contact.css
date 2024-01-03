@@ -9,22 +9,18 @@
     align-items: center;
     justify-content: center;
 }
-
 .contactPageTitle{
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-
 .clientDesc{
     font-weight: 300;
     font-size: 1rem;
 }
-
 .clientImgs{
     margin: 1rem 0;
     display: flex;
 }
-
 .clientImg{
     object-fit: cover;
     width: 23%;
@@ -33,17 +29,14 @@
     padding: 0.25rem;
     flex-wrap: wrap;
 }
-
 #clients{
     padding: 2rem;
 }
-
 .contactDesc{
     padding: 2rem;
     font-size: medium;
     font-weight: 300;
 }
-
 .contactForm{
     margin: 1rem;
     display: flex;
@@ -53,7 +46,6 @@
     width: 90vw;
     max-width: 60rem;
 }
-
 .name, .email, .msg{
     font-size: medium;
     width: 100%;
@@ -65,7 +57,6 @@
     border-radius: 0.5rem;
     background : rgb(40, 40, 40);
 }
-
 .submitBtn{
     background: white;
     border: none;
@@ -73,11 +64,15 @@
     margin: 2rem;
     padding: 0.75rem 3.5rem  ;
 }
-
 .link{
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
-    
+}
+.icon{
+    color: yellow;
+    width: 2rem;
+    height: 2rem;
+    margin: 0  0.75rem;
 }

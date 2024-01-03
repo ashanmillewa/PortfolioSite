@@ -2,6 +2,11 @@ import React from 'react'
 import './contact.css'
 import ClientImg from '../../assets/portfolio.png'
 import logo from '../../assets/logo.png'
+import { FaFacebook } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 
 const contact = () => {
   return (
@@ -28,11 +33,15 @@ const contact = () => {
                 <textarea className='msg' name='message' rows={5} placeholder='Your Message'></textarea> 
                 <button type='submit' value='send' className='submitBtn'>Submit</button>
                 <div className='links'>
+                <FaFacebook className='icon'/>
+                <FaInstagram  className='icon'/>
+                <FaLinkedin className='icon'/>
+                <FaGithub className='icon'/>
+                    {/* <img src={logo} alt='' className='link'/>
                     <img src={logo} alt='' className='link'/>
                     <img src={logo} alt='' className='link'/>
                     <img src={logo} alt='' className='link'/>
-                    <img src={logo} alt='' className='link'/>
-                </div>
+  */}           </div> 
             </form>
         </div>
     </section>
