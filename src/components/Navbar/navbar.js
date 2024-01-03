@@ -10,7 +10,7 @@ const Navbar = () => {
       <img src={logo} alt='logo'  className='logo'/>
       <div className='desktopMenu'>
         
-          <Link className='desktopMenuItemList'>Home</Link>
+          <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} className='desktopMenuItemList'>Home</Link>
           <Link className='desktopMenuItemList'>About</Link>
           <Link className='desktopMenuItemList'>Portfolio</Link>
           <Link className='desktopMenuItemList'>Clients</Link>
