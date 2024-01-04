@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
 import ClientImg from '../../assets/portfolio.png'
+import logo from '../../assets/logo.png'
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
