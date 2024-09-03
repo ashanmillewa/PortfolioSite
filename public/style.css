@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: transparent;
+    background: transparent;
 }
 body{
     background: rgb(30, 30, 30);
